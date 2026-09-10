@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .App {
+    flex-direction: column;
+  }
+}
